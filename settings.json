@@ -1,0 +1,63 @@
+{
+  // Config for editor
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.colorDecorators": false,
+  "editor.formatOnSave": true,
+  "editor.minimap.autohide": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.wordWrap": "on",
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  // Config vscode
+  "window.menuBarVisibility": "toggle",
+  "breadcrumbs.enabled": false,
+  "files.autoSave": "afterDelay",
+  "workbench.sideBar.location": "left",
+  "workbench.colorTheme": "Rosé Pine",
+  "workbench.iconTheme": "material-icon-theme",
+  // Tabnine
+  "tabnine.experimentalAutoImports": true,
+  "extensions.ignoreRecommendations": true,
+  // Terminal settings
+  "terminal.integrated.fontFamily": "monospace",
+  // Explerer settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  // Prettier settings
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "prettier.singleQuote": true,
+  // Não sei oq faz 
+  "yaml.schemas": {
+    "file:///home/matheus/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  // Config EsLint
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.suggestSmartCommit": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.productIconTheme": "fluent-icons"
+}
